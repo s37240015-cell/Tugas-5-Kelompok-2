@@ -1,0 +1,29 @@
+.navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(231, 11%, 70%);
+}
+
+.navbar {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.navbar a {
+    width: 20%;
+    background-color: hsl(232, 11%, 30%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.navbar a:hover {
+    background-color:hsl(231, 11%, 20%);
+}
